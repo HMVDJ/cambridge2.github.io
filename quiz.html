@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+ <style type="text/css">
+	.company_name{
+		color: black;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		width: 100%;
+		background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.talkwalker.com%2Fblog%2Fwhat-is-image-analysis&psig=AOvVaw1C6J3GntzQVFNjIFWIosbc&ust=1596260239373000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPj-pfXi9uoCFQAAAAAdAAAAABAD);
+		background-image: url('larch.jpg');
+	}
+	.navigationbar{
+		text-align: left;
+		font-size: 20px;
+		position: absolute;
+		top: 85px;
+		left: 0px;
+		width: 100%;
+		padding-left: 30px;
+		text-decoration: none;
+		
+	}
+	.aboutus{
+		background-image: url('larch.jpg');
+		color: black;
+
+		position: absolute;
+		top: 1150px;
+		left: 0px;
+		width: 100%;
+		padding: 0px
+
+	}
+	.quiz{
+		position: absolute;
+		top: 200px;
+		left:50%; 
+		font-size: 30px
+	}
+	.quiz_q{
+		position: absolute;
+		top: 290px;
+		left:10%; 
+		font-size: 20px;
+		color: blue;
+	}
+	.option{
+		position: relative;
+
+		left:20%;
+	}
+a{
+	text-decoration:  none;
+}
+
+	
+	.contact{
+		color: black;
+		position: absolute;
+		top: 20px;
+		left: 0px;
+		width: 100%;
+		padding: 0px
+	}
+</style>
+<head>
+	<title>Furniture</title>
+</head>
+<body>
+<header>
+	<div class="company_name" align="center"><h1><strong><a href="Main.html" 
+		style="text-decoration: none;color: black;"> Cambridge Lining Works<strong></h1></a></div>
+		<div class="navigationbar" style="text-decoration: none;">
+
+		<a href="Main.html"style="padding-left: 100px;text-decoration: none;color: brown;"><strong>Home</strong></a>
+		<a href="products.html" style="padding-left: 50px;text-decoration: none;color: brown;">products</a>
+		<a href="quiz.html" style="padding-left: 50px;text-decoration: none;color: brown;"><strong>Help</strong></a>
+		<a href="About_us.html" style="padding-left: 50px;text-decoration: none;color: brown;">About us</a>
+		</div>
+
+</header>
+
+<br>
+<main>
+
+
+<div class="Quiz">
+	<p>quiz</p></div>
+<div class="quiz_q">
+<p style="font-size: 25px;"><strong> Your residence type:</strong></p>
+<div class="option">
+<input type="radio" id="male" name="gender" value="male">
+<label for="male">Appartment</label><br>
+<input type="radio" id="female" name="gender" value="female">
+<label for="female">Condo</label><br>
+<input type="radio" id="other" name="gender" value="other">
+<label for="other">Bunglow</label>
+</div>
+<br>
+
+<p style="font-size: 25px;"><strong>Size of Your residence:</strong></p>
+<div class="option">
+<input type="radio" id="space" name="room_space" value="less than 200 Sq. feet">
+<label for="less than 200 Sq. feet">Less than 200 Sq. feet</label><br>
+<input type="radio" id="space" name="room_space" value="200 to 500 Sq. feet">
+<label for="200 to 500 Sq. feet">Between 200 to 500 Sq. feet</label><br>
+<input type="radio" id="space" name="room_space" value="more than 500 Sq. feet">
+<label for="more than 500 Sq. feet">More than 500 Sq. feet</label>
+</div>
+<br>
+
+
+<p class="" style="font-size: 25px; position: "><strong>Where to install ?</strong></p>
+<div class="option" >
+<input type="radio" id="space" name="room_space" value="Bedroom">
+<label for="Bedroom">Bedroom</label><br>
+<input type="radio" id="space" name="room_space" value="Living room">
+<label for="Living room">Living room</label><br>
+<input type="radio" id="space" name="room_space" value="Varandah">
+<label for="Varandah">Varandah</label>
+</div>
+<br>
+
+<button type="button" onclick="document.getElementById('demo5').style.display='block'">submit</button>
+<p id="demo5" style="display:none;color: red;">your response is submited</p>
+<br>
+<br>
+<button type="button" onclick="document.getElementById('d').style.display='block'">what would best suit you</button>
+<p id="d" style="display:none;color: brown;">Wooden furniture would be perfect for you</p>
+
+
+</div></div>
+<p id="demo" style="color: red;font-size: 15px;">submit your response</p>
+
+
+
+
+</div></main>
+<footer>
+	
+<div class="aboutus" style="padding-left: 50px;"><br><strong><p><h2>Contact details</h2></p>
+<div class="Contact" style="float: right; padding-right: 400px;padding-bottom: 0px;" >
+		<h2 style=" padding-right: 0px;">Write to us:</h2>
+		
+		<a href="mailto:Cambridgelining@cam.com" style="color: black;text-decoration: none;"><h3><i>Send us an Email</i></h3></a>
+		<label>Email id:</label>
+		<br>
+		<input type="Email" value= "Email id">
+<button>Submit</button></div>
+	<address>
+	<p style="padding-left: 70px;"><h3>Cambridge Lining Works</h3></p>
+	
+	<p style="padding-left: 70px;"><h3>257 Middlesex turnpike</h3></p>
+	
+	<p style="padding-left: 70px;"><h3>Iselin, New Jersey 08830</h3></p>
+</address>
+	</strong>
+</div>
+
+</footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
